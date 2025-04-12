@@ -25,7 +25,7 @@ Welcome to the *Data Driven Contact Cards* project by Hmabiola! This is a data a
 
 ## Demo
 
-You can view the live demo of the application at [Facts about React](https://hmabiola-contactcard.netlify.app/).
+You can view the live demo of the application at [Contact Card by Hmabiola](https://hmabiola-contactcard.netlify.app/).
 
 ## Installation
 
