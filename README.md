@@ -21,11 +21,11 @@ Welcome to the *Data Driven Contact Cards* project by Hmabiola! This is a data a
 - [TypeScript](https://www.typescriptlang.org/) - A superset of JavaScript that adds static types.
 - [Vite](https://vitejs.dev) - A fast and light weight platform to setup the configurations file and react development envirionment in a whole.
 - [CSS/Styled Components](https://styled-components.com/) - For styling the components
-- [Node package manager, NPM](node.js/org) - Allow the use of  npm commands, run the development arena.
+- [Node package manager, NPM](https://nodejs.org/en)- Allow the use of  npm commands, run the development arena.
 
 ## Demo
 
-You can view the live demo of the application at [Facts about React](https://hmabiola-contactcards.netlify.app/).
+You can view the live demo of the application at [Facts about React](https://hmabiola-contactcard.netlify.app/).
 
 ## Installation
 
@@ -61,9 +61,8 @@ For any questions or collaboration, feel free to reach out:
 
 - [Hmabiola WhatsApp]()
 
-- [Hmabiola mail](mailto: hasbunallahmubarak@gmail.com)
+- [Hmabiola mail](hasbunallahmubarak@gmail.com)
 
 - [Hmabiola website 1](hasbunallahmubarak.github.io/Hmabiola-Portfolio/)
 
 - [Hmabiola website 2](hasbunallahmubarak.github.io/Hmabiola/)
--
