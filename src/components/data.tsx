@@ -44,8 +44,7 @@ export default [
     tel: "+234 816 759 2363",
     email: "kola@common.com",
     id: 5,
-    image:
-      "https://scontent.flos5-1.fna.fbcdn.net/v/t39.30808-6/483525025_1831517784337606_3668874381231137460_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=6p9Fq_iv_aUQ7kNvwFLECA5&_nc_oc=AdlPgATP3KDFTY9Vy_kjWR42-z-i-Hn0CBK2e6PzvMvANBuLx4PJo1mqDGY0j-GHeQg&_nc_zt=23&_nc_ht=scontent.flos5-1.fna&_nc_gid=2489wy_MhLJXEunF7CxuMw&oh=00_AYE68AQTJjaOp9I8wn2R5pvYGwUOVfttVyvF3OOL6NYU_Q&oe=67F5B390",
+    image: "https://scontent.flos5-2.fna.fbcdn.net/v/t39.30808-6/483525025_1831517784337606_3668874381231137460_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=m4dM5gVWDB4Q7kNvwETFP_z&_nc_oc=AdlZfs7AmmDvvR6jbK595k-p2RgCNnwzghpfup7Hfjchrc6pOCAJbWA8FhCmqewfXjU&_nc_zt=23&_nc_ht=scontent.flos5-2.fna&_nc_gid=B78tTqPwoGdHBByhB4OjXw&oh=00_AfGu9L2ETs-jlCJbQbukDCLVQKKWoWGJvDlP3M-sqdegzA&oe=680077D0",
   },
   // {
   //   name: "Kolayemi_Adeoye",
