@@ -32,17 +32,17 @@ You can view the live demo of the application at [Contact Card by Hmabiola](http
 To get started with this project, follow these steps:
 
 1. Clone the repository:
-   bash
+ ```  bash
    git clone https://github.com/Hasbunallahmubarak/contact-cards.git
-   
+  ``` 
 2. Move into the cloned repository:
-   bash
+   ``` bash
       cd contact-cards
-   
+   ```
 3. install all dependencies:
-   bash
+ ```  bash
       npm install
-   
+   ```
 
 ## Contribution
 
