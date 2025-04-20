@@ -9,10 +9,12 @@ const Nav = ({ handleClick, toggle, handleToggleEffect }: Props) => {
   return (
     <div className={`navwrapper ${toggle && "dark-bg"}`}>
       <nav className="nav-component">
-        <span className="title">Contact Card</span>
+        <span className="title">
+          <i className="icon bi-folder-fill"></i> Contact Card
+        </span>
         <span className="rightside">
           <a onClick={handleClick} className="new-card">
-            Create card
+            <i className="icon bi-person-circle"></i> Create card
           </a>
         </span>
       </nav>

@@ -2,8 +2,16 @@
 body,html{height: 100%;}
 body{
   margin: 0;
-  font-family: "Arial", sans-serif;
+  padding: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #ffffffe1;
+}
+.root{
+  background-color: #fff;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 #container{
   display: flex;
@@ -48,17 +56,13 @@ body{
   
 }
 .navwrapper img{height: 25px}
-.title::before{
-  content: "📁  ";
-}
+
 .new-card{
   text-decoration: none;
   color: inherit;
   cursor: pointer;
 }
-.new-card::before{
-  content: "📝  ";
-}
+
 .contact-card-container{
   padding: 30px;
 }
@@ -78,13 +82,13 @@ body{
 .cancel{
   position: absolute;
   top: 20px;
-  color: #bbb;
+  color: #999;
   padding: 8px 15px;
   right: 15px;
   font-size: 25px;
   border-radius: 50%;
   transition: 0.3s ease-in;
-  border: 1px solid #ccc;
+  border: 1px solid #bbb;
 }
 .cancel:hover{
   cursor: pointer;
@@ -112,13 +116,6 @@ div.message{
   letter-spacing: 0.2rem;
 }
 .contact-card h4{font-weight: lighter;}
-
-.contact-card h4.number::before{
-  content: "📞 ";
-}
-.contact-card h4.mail::before{
-  content: "✉️ ";
-}
 
 .link{
   text-decoration: none;
@@ -188,10 +185,12 @@ div.message{
   float: left;
   width: 90%;
   font-size: 18px;
-  padding: 10px 20px;
+  padding: 5px 20px;
   border: none;
   outline: none;
 }
+.form-item span > i{padding: 5px 0px;}
+.dark-bg .form-item span  > i {color: #333;}
 .form-item .no-bg input{
   width: 30%;
   font-size: 15px;
@@ -214,7 +213,7 @@ div.message{
   font-size: 22px;
   padding: 0;
 }
-.dark-bg .icon-gender i{
+.dark-bg .icon-gender i, .dark-bg .icon-gender label{
   color: #ddd;
   text-shadow: 5px 5px  10px rgb(1, 12, 73);
 
@@ -235,7 +234,6 @@ div.message{
   transition: 0.3s ease-in;
 }
 #submit-button:hover{
-  
   background-color: #ddd;
 }
 .dark-bg{

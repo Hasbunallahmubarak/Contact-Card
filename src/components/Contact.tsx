@@ -28,12 +28,12 @@ const Contact = ({
           <h2 className="name">{name}</h2>
           <h4 className="number">
             <a href={`tel: ${number}`} className="link">
-              {number}
+              <i className="bi-telephone-fill"></i> {number}
             </a>
           </h4>
           <h4 className="mail">
             <a href={`mailto: ${mail}`} className="link">
-              {mail}
+              <i className="bi-envelope-fill"></i> {mail}
             </a>
           </h4>
         </div>

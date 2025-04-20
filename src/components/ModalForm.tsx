@@ -30,7 +30,7 @@ const ModalForm = ({
           <span className="form-item">
             <label htmlFor="">Your picture:</label>
             <span>
-              <i className="icon icon-name">📷</i>
+              <i className="icon icon-name bi-camera-fill"></i>
               <input
                 type="file"
                 name="image"
@@ -43,7 +43,7 @@ const ModalForm = ({
           <span className="form-item">
             <label htmlFor="">First Name:</label>
             <span>
-              <i className="icon icon-name">👤</i>
+              <i className="icon icon-name bi-person-fill"></i>
               <input
                 type="text"
                 name="first_name"
@@ -58,7 +58,7 @@ const ModalForm = ({
           <span className="form-item">
             <label>Last Name:</label>
             <span>
-              <i className="icon icon-name">👤</i>
+              <i className="icon icon-name bi-person-fill"></i>
               <input
                 type="text"
                 name="last_name"
@@ -73,7 +73,7 @@ const ModalForm = ({
           <span className="form-item">
             <label>E-mail:</label>
             <span>
-              <i className="icon icon-name">✉️</i>
+              <i className="icon icon-name bi-envelope-fill"></i>
               <input
                 type="email"
                 placeholder="Email"
@@ -88,7 +88,7 @@ const ModalForm = ({
           <span className="form-item">
             <label>Phone No. :</label>
             <span>
-              <i className="icon icon-name">📞</i>
+              <i className="icon icon-name bi-telephone-plus"></i>
               <input
                 type="tel"
                 placeholder="Phone number"
@@ -104,17 +104,17 @@ const ModalForm = ({
             <label htmlFor="gender">Gender:</label>
             <span className="no-bg">
               <span className={`${toggle && "dark-bg"}`}>
-                <div className="icon icon-gender">
+                <i className="icon icon-gender">
                   <label htmlFor="male">
-                    Male <i>🧔🏾‍♂️</i>
+                    Male <i className="icon bi-gender-male"></i>
                   </label>
-                </div>
+                </i>
                 <input
                   type="radio"
                   required
                   name="gender"
-                  value="male"
                   id="male"
+                  value="male"
                   onChange={handleChange}
                   onClick={handleSelection}
                 />
@@ -122,7 +122,7 @@ const ModalForm = ({
               <span className={`${toggle && "dark-bg"}`}>
                 <i className="icon icon-gender">
                   <label htmlFor="female">
-                    Female <i>👩🏾</i>
+                    Female <i className="icon bi-gender-female"></i>
                   </label>
                 </i>
                 <input

@@ -7,7 +7,8 @@ import male from "../src/assets/img_avatar.png";
 import female from "../src/assets/img_avatar2.png";
 import ModalForm from "./components/ModalForm";
 const App = () => {
-  const [cards, updateCards] = useState([...Data]);
+  const [dataFile, setDataFile] = useState(Data);
+  const [cards, updateCards] = useState([...dataFile]);
   const handleDelete = (id: number) => {
     const updatedCards = cards.filter((card) => card.id !== id);
     updateCards(updatedCards);
@@ -40,9 +41,6 @@ const App = () => {
     phone_number: "+234",
     gender: "",
   });
-  // const [selectedGender, setSelectedGender] = useState(
-  //   Boolean(formData.gender)
-  // );
   const handleChange = (event: any) => {
     const { name, value } = event.target;
     setFormData((prevFormData) => {
@@ -107,6 +105,7 @@ const App = () => {
     };
     const updatedFormData = { ...update, renderData };
     cards.push(updatedFormData);
+    // localStorage.setItem("dataFile", JSON.stringify(cards));
     setFormData({
       image: dummyImage,
       first_name: "",
@@ -129,7 +128,19 @@ const App = () => {
       setDummyImage(female);
     }
   }
-  console.log(formData.gender);
+
+  useEffect(() => {
+    localStorage.setItem("dataFile", JSON.stringify(cards));
+    console.log("card updated");
+  }, [cards]);
+  useEffect(() => {
+    const storedDataFile = JSON.parse(localStorage.getItem("dataFile")!);
+    setDataFile(storedDataFile);
+    console.log(storedDataFile);
+  }, [cards]);
+
+  console.log(dataFile);
+
   return (
     <div className={`root ${themeToggle && "dark-bg" && "faint-effect"}`}>
       <Nav
